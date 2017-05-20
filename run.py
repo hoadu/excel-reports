@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
-from src import ReadReports
+from src import ReportReader
 
-ReadReports()
+reportReader = ReportReader()
+reportReader.read("./files/certificate-survey-raw-data.xlsx")
